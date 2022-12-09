@@ -8,7 +8,7 @@ class Model:
     def add_item(self, first_name, last_name, phone_number):
         self.phonebook_items.append(PhonebookItem(first_name, last_name, phone_number))
 
-    def modify_item(self, index, first_name, last_name, phone_number ):
+    def modify_item(self, index, first_name, last_name, phone_number):
         self.phonebook_items[index] = PhonebookItem(first_name, last_name, phone_number)
 
     def delete_item(self, index):
